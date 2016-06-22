@@ -21,7 +21,7 @@ public class table {
 		
 		WebElement mytable = driver.findElement(By.xpath(".//*[@id='post-body-8228718889842861683']/div[1]/table/tbody"));
 		//To locate rows of table
-		
+		//To locate rows of table
 		List<WebElement> rows_count= mytable.findElements(By.tagName("tr"));
 		System.out.println(rows_count.size());
 		
