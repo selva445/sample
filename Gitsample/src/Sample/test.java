@@ -17,7 +17,7 @@ public class test {
 	public static void main(String[] args) {
 			// TODO Auto-generated method stub
 			//To locate columns  of table
-		
+		//To locate columns  of table
 			WebDriver driver = new FirefoxDriver();
 			driver.get("http://www.lufthansa.com/ua/en/Homepage#");
 			driver.manage().window().maximize();
